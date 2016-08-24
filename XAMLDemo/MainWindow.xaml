@@ -21,9 +21,6 @@
 
         <!-- De cell rechts boven -->
         <Border  Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="2">
-
-            <Button Name="clickme" Content="Click me!"></Button>
-            
         </Border>
 
         <!-- De cell links onder -->
