@@ -12,3 +12,6 @@ C:\Users\Linksonder\Documents\1. GitHub\Prog5.XAML\XAMLDemo\obj\Debug\XAMLDemo.P
 C:\Users\Linksonder\Documents\1. GitHub\Prog5.XAML\XAMLDemo\obj\Debug\XAMLDemo.csproj.GenerateResource.Cache
 C:\Users\Linksonder\Documents\1. GitHub\Prog5.XAML\XAMLDemo\obj\Debug\XAMLDemo.exe
 C:\Users\Linksonder\Documents\1. GitHub\Prog5.XAML\XAMLDemo\obj\Debug\XAMLDemo.pdb
+C:\Users\Chris\Documents\Avans Hogeschool\Jaar 2\Blok 1\Programmeren 5\XAML\XAMLDemo\bin\Debug\XAMLDemo.exe.config
+C:\Users\Chris\Documents\Avans Hogeschool\Jaar 2\Blok 1\Programmeren 5\XAML\XAMLDemo\obj\Debug\XAMLDemo.exe
+C:\Users\Chris\Documents\Avans Hogeschool\Jaar 2\Blok 1\Programmeren 5\XAML\XAMLDemo\obj\Debug\XAMLDemo.pdb
