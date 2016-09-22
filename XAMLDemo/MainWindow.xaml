@@ -6,6 +6,7 @@
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
+            <RowDefinition />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -13,24 +14,34 @@
         </Grid.ColumnDefinitions>
 
         <!-- De cell links boven -->
-        <Border  Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="2">
+        <Border  Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="2" Background="Red">
             <Label HorizontalAlignment="Center" VerticalAlignment="Center"
-                   
+
                Content="{StaticResource ComboBoxTitle}" Foreground="{StaticResource MainColor}" />
         </Border>
 
         <!-- De cell rechts boven -->
-        <Border  Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="2">
+        <Border  Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="2" Background="Red">
+            <TextBox HorizontalAlignment="Center" VerticalAlignment="Center" 
+                Foreground="{StaticResource MainColor}" TextWrapping="Wrap" Width="200"/>
         </Border>
 
         <!-- De cell links onder -->
         <Border  Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="2">
-
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="Click me" Width="60" Height="25"/>
         </Border>
 
         <!-- De cell rechts onder -->
         <Border  Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="2">
+            <Slider HorizontalAlignment="Center" VerticalAlignment="Center" Width="200"/>
+        </Border>
 
+        <Border  Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="2" Background="Blue">
+            <DatePicker HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <Border  Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="2" Background="Blue">
+            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
 
     </Grid>
